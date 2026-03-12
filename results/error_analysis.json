@@ -1,0 +1,26 @@
+[
+  {
+    "type": "Long generation",
+    "instruction": "اكتب قصيدة طويلة جداً",
+    "response": "يا في الساصير الكرق وبلا بيتجي بطول ني الش\nتخلى الذاح نجم وكلانوس\nوشضاحب وإلان ما في العد كراعد\nوأهل",
+    "issues": [
+      "No obvious issues detected"
+    ]
+  },
+  {
+    "type": "Out-of-distribution topic",
+    "instruction": "اكتب بيتاً عن الفلسفة",
+    "response": "يستشعراً وقذثن يبيغاون القله تجل الشماء هفي والشعر\nوين تنكرح تهمها وإنسيزة تسان",
+    "issues": [
+      "No obvious issues detected"
+    ]
+  },
+  {
+    "type": "Short instruction",
+    "instruction": "اكتب شعراً",
+    "response": "ا في وي الأما دواشعر بالحراء في الا تفي الخل فعفء\nيكن الجرل ما الفي في قداموب كن\nمن لا فلككل أبانت إ",
+    "issues": [
+      "No obvious issues detected"
+    ]
+  }
+]

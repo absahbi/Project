@@ -1,0 +1,42 @@
+{
+  "project": "Arabic Poetry GPT from Scratch",
+  "model_config": {
+    "vocab_size": 61,
+    "embed_dim": 128,
+    "num_heads": 4,
+    "num_layers": 4,
+    "ffn_dim": 512,
+    "max_seq_len": 256,
+    "total_params": 833920
+  },
+  "data": {
+    "pretrain_lines": 92,
+    "pretrain_chars": 4839,
+    "sft_samples": 162,
+    "language": "Arabic"
+  },
+  "training": {
+    "pretrain_epochs": 30,
+    "sft_epochs": 20,
+    "pretrain_lr": 0.0003,
+    "sft_lr": 0.0001
+  },
+  "results": {
+    "pretrain_final_loss": 0.1214,
+    "pretrain_final_ppl": 1.13,
+    "sft_final_loss": 2.0202,
+    "sft_final_ppl": 7.54
+  },
+  "key_learnings": [
+    "Character-level tokenization works well for Arabic text",
+    "Causal attention masking enables autoregressive generation",
+    "SFT fine-tuning helps align the model to instruction-following",
+    "Perplexity decreases consistently with more training",
+    "Temperature and top-k sampling control generation diversity"
+  ],
+  "failure_modes": [
+    "Repetitive token generation at low temperatures",
+    "Context loss for very long sequences",
+    "Limited vocabulary for out-of-distribution topics"
+  ]
+}
