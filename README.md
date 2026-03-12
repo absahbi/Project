@@ -71,3 +71,5 @@ results/error_analysis.json         failure mode analysis
 notebooks/arabic_gpt_poetry.ipynb   main notebook
 ```
 
+##Demo video link 
+https://drive.google.com/file/d/10_9QHt_xEd5l7nXtQNvUgTR6bWXAbhEV/view?usp=drive_link
